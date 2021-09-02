@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+}
+
+#question {
+    font-size: large;
+
+}
+
+button {
+    font-size: larger;
+    background-color: yellow;
+}
+
+#bq {
+    height: 500px;
+    width: 450px;
+}
+
+#bqq {
+    height: 600px;
+    width: 400px;
+}
+
+#question {
+    background-color: rgb(0, 255, 255);
+    animation-name: question;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes question {
+    from {
+        background-color: rgb(0, 255, 255);
+    }
+
+    to {
+        background-color: rgb(255, 0, 234);
+    }
+}
