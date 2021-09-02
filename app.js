@@ -2,6 +2,10 @@ var divanswers = document.getElementById("divanswers")
 
 var divanswe = document.getElementById("divanswe");
 
+var divanswera = document.getElementById("divanswera")
+
+var divanswerd = document.getElementById("divanswerd")
+
 var bank = document.getElementById("bank");
 
 bank.onclick = () => {
@@ -64,3 +68,57 @@ function sub() {
 // This the function for q 6 
 
 // calculate button
+// disrupted
+
+// #technical error
+// Suntax=wrong
+
+function submita() {
+    if (document.getElementById('answera').checked) {
+        divanswera.innerHTML = "This is the correct answer.";
+    } else {
+        divanswera.innerHTML = "Ops! This is the wrong answer . The correct answer is Trinomial "
+    }
+
+}
+
+function submitb() {
+    if (document.getElementById('answerb').checked) {
+        divanswerb.innerHTML = "This is the correct answer.";
+    } else {
+        divanswerb.innerHTML = "Ops! This is the wrong answer . The correct answer is Whole Number "
+    }
+
+}
+
+
+
+function submitc() {
+    if (document.getElementById('answerc').checked) {
+        divanswerc.innerHTML = "This is the correct answer.";
+    } else {
+        divanswerc.innerHTML = "Ops! This is the wrong answer . The correct answer is both 3 & a are irreducible factors. "
+    }
+
+}
+
+
+
+
+function submitd() {
+    if (document.getElementById('answerd').checked) {
+        divanswerd.innerHTML = "This is the correct answer.";
+    } else {
+        divanswerd.innerHTML = "Ops! This is the wrong answer . The correct answer is base X perpendicular height "
+    }
+
+}
+
+function submite() {
+    if (document.getElementById('answere').checked) {
+        divanswere.innerHTML = "This is the correct answer.";
+    } else {
+        divanswere.innerHTML = "Ops! This is the wrong answer . The correct answer is Sum of length of three sides "
+    }
+
+}

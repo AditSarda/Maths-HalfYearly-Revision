@@ -23,18 +23,5 @@ button {
 }
 
 #question {
-    background-color: rgb(0, 255, 255);
-    animation-name: question;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes question {
-    from {
-        background-color: rgb(0, 255, 255);
-    }
-
-    to {
-        background-color: rgb(255, 0, 234);
-    }
+    background-color: cyan;
 }
